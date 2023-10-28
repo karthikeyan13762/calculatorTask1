@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(33, 38, 58);
+}
+
+#app{
+    background: linear-gradient(rgb(226, 213, 68),rgb(62, 62, 218),rgb(47, 145, 206));
+    margin-top: 50px;
+    width: 400px;
+    padding: 25px;
+    /* display: flex; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 15px;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+}
+
+#result{
+    background: rgb(199, 207, 228);
+    margin: 0px 0 20px 0; 
+    padding: 10px;  
+    /* text-align: center; */
+    border-radius: 5px;
+    font-size: 28px;
+    text-align: end;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    color: rgb(134, 117, 89);
+
+}
+#operands{
+    font-size: 18px;
+    text-align: right;
+    padding: 10px;  
+    margin-bottom: 0;
+    height: 25px;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(176, 220, 226);
+    
+}
+@media (Max-width:567px) {
+    
+    #app{
+        background: linear-gradient(rgb(226, 213, 68),rgb(62, 62, 218),rgb(47, 145, 206));
+        margin-left: 2%;
+        margin-top: 25% ;
+        width: 75%;
+        padding: 25px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        border-radius: 15px;
+        height: 60vh;
+       
+    }
+
+    button{
+        border-radius: 12%;
+        margin-top: 10px;
+        width: 50px;
+        background: rgb(176, 220, 226);
+        
+    }
+}
